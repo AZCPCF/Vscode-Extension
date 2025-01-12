@@ -52,7 +52,7 @@ vsce package
 
 ### 6. Use the Extension
 
-- Open a file with the `.cyrus` extension.
+- Open a file with the `.cy` extension.
 - Enjoy syntax highlighting and editor support for CyrusLang!
 
 ## Language Features
