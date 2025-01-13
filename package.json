@@ -1,16 +1,17 @@
 {
-  "name": "cyrus-lang",
-  "displayName": "cyrus-lang",
-  "description": "Syntax highlighter for cyrus-lang",
+  "name": "cyrus-language",
+  "displayName": "Cyrus Lang",
+  "description": "The Cyrus Programming Language",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.96.0"
   },
+  "publisher": "cyrus-lang-tools",
+  "icon": "./icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/meshya/cyrus-code-extension"
+    "url": "https://github.com/cyrus-lang/Vscode-Extension"
   },
-  "publisher":"meshya",
   "scripts": {
     "test": "vscode-test"
   },
@@ -22,7 +23,6 @@
       {
         "id": "cyrus",
         "aliases": [
-          "cyrus",
           "cyrus"
         ],
         "extensions": [
@@ -42,5 +42,9 @@
   "devDependencies": {
     "@vscode/test-cli": "^0.0.10",
     "@vscode/test-electron": "^2.4.1"
+  },
+  "dependencies": {
+    "global": "^4.4.0",
+    "vsce": "^2.15.0"
   }
 }

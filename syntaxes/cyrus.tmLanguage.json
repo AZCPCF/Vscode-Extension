@@ -1,5 +1,5 @@
 {
-    "name": "CyrusLang",
+    "name": "Cyrus Lang",
     "fileTypes": ["cyrus"],
     "scopeName": "source.cyrus",
     "patterns": [
