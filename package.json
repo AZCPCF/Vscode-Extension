@@ -2,7 +2,7 @@
   "name": "cyrus-language",
   "displayName": "Cyrus Lang",
   "description": "The Cyrus Programming Language",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.96.0"
   },
@@ -13,7 +13,8 @@
     "url": "https://github.com/cyrus-lang/Vscode-Extension"
   },
   "scripts": {
-    "test": "vscode-test"
+    "test": "vscode-test",
+    "publish": "vsce publish"
   },
   "categories": [
     "Programming Languages"
