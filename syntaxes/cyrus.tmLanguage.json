@@ -5,15 +5,15 @@
     "patterns": [
         {
             "name": "keyword.control.cyrus",
-            "match": "\\b(if|else|for|match|pub|inline|extern|impl|ret|throw|return|break)\\b"
+            "match": "\\b(if|else|for|match|pub|inline|extern|impl|return|break|continue)\\b"
         },
         {
             "name": "keyword.declaration.cyrus",
-            "match": "\\b(fn|struct|package|imoprt)\\b"
+            "match": "\\b(fn|struct|import)\\b"
         },
         {
             "name": "storage.type.cyrus",
-            "match": "\\b(i32|i64|u32|u64|usize|f32|f64|string|char|bool|range)\\b"
+            "match": "\\b(i8|i16|i32|i64|i128|u8|u16|u32|u64|u128|f32|f64|char|bool|void|string)\\b"
         },
         {
             "name": "variable.language.cyrus",
@@ -21,7 +21,7 @@
         },
         {
             "name": "constant.language.cyrus",
-            "match": "\\b(true|false|nil)\\b"
+            "match": "\\b(true|false|null)\\b"
         },
         {
             "name": "constant.numeric.cyrus",
