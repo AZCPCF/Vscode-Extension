@@ -9,7 +9,7 @@
         },
         {
             "name": "keyword.declaration.cyrus",
-            "match": "\\b(fn|struct|import)\\b"
+            "match": "\\b(fn|struct|import|as)\\b"
         },
         {
             "name": "storage.type.cyrus",
