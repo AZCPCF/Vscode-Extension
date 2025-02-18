@@ -2,7 +2,7 @@
   "name": "cyrus-language",
   "displayName": "Cyrus Lang",
   "description": "The Cyrus Programming Language",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "engines": {
     "vscode": "^1.96.0"
   },
@@ -27,7 +27,7 @@
           "cyrus"
         ],
         "extensions": [
-          ".cy"
+          ".cyr"
         ],
         "configuration": "./language-configuration.json"
       }
