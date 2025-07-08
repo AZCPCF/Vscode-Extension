@@ -15,7 +15,7 @@
         },
         {
             "name": "storage.type.cyrus",
-            "match": "\\b(const|int|int8|int16|int32|int64|int128|uint|uint8|uint16|uint32|uint64|uint128|float16|float32|float64|float128|char|bool|void|string|matrix)\\b"
+            "match": "\\b(const|uintptr|intptr|size_t|int|int8|int16|int32|int64|int128|uint|uint8|uint16|uint32|uint64|uint128|float16|float32|float64|float128|char|bool|void|string|matrix)\\b"
         },
         {
             "name": "variable.language.cyrus",
