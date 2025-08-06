@@ -1,0 +1,11 @@
+{
+  "iconDefinitions": {
+    "cyrus": {
+      "iconPath": "./cyrus.svg"
+    }
+  },
+  "fileExtensions": {
+    "cyr": "cyrus"
+  },
+  "file": "cyrus"
+}

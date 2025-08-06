@@ -1,8 +1,8 @@
 {
   "name": "cyrus-language",
-  "displayName": "Cyrus Lang",
+  "displayName": "Cyrus Programming Language",
   "description": "The Cyrus Programming Language",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "engines": {
     "vscode": "^1.96.0"
   },
@@ -23,9 +23,9 @@
   "contributes": {
     "languages": [
       {
-        "id": "cyrus",
+        "id": "cyrus-language",
         "aliases": [
-          "cyrus"
+          "Cyrus"
         ],
         "extensions": [
           ".cyr"
@@ -38,6 +38,13 @@
         "language": "cyrus",
         "scopeName": "source.cyrus",
         "path": "./syntaxes/cyrus.tmLanguage.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "cyrus",
+        "label": "Cyrus",
+        "path": "./icons/cyrus.json"
       }
     ]
   },
