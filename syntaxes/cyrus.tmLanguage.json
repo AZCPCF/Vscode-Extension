@@ -7,11 +7,11 @@
     "patterns": [
         {
             "name": "keyword.control.cyrus",
-            "match": "\\b(if|else|for|foreach|in|switch|case|default|public|inline|extern|return|break|continue)\\b"
+            "match": "\\b(if|else|while|for|foreach|in|switch|case|default|public|inline|extern|return|break|continue)\\b"
         },
         {
             "name": "keyword.declaration.cyrus",
-            "match": "\\b(error|interface|type|macro|func|struct|bits|enum|import|as|in|typecast)\\b"
+            "match": "\\b(error|interface|type|macro|func|struct|bits|enum|import|as|in|cast)\\b"
         },
         {
             "name": "storage.type.cyrus",
