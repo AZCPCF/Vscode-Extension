@@ -7,15 +7,15 @@
     "patterns": [
         {
             "name": "keyword.control.cyrus",
-            "match": "\\b(if|else|while|for|foreach|in|switch|case|default|public|inline|extern|return|break|continue)\\b"
+            "match": "\\b(if|else|while|for|foreach|in|switch|case|default|pub|inline|extern|return|break|continue)\\b"
         },
         {
             "name": "keyword.declaration.cyrus",
-            "match": "\\b(error|interface|union|type|macro|func|struct|bits|enum|import|as|in|cast)\\b"
+            "match": "\\b(error|interface|union|type|macro|fn|struct|bits|enum|import|as|in|cast)\\b"
         },
         {
             "name": "storage.type.cyrus",
-            "match": "\\b(const|uintptr|intptr|size_t|int|int8|int16|int32|int64|int128|uint|uint8|uint16|uint32|uint64|uint128|float16|float32|float64|float128|char|bool|void|string|matrix)\\b"
+            "match": "\\b(const|uintptr|intptr|size_t|int|int8|int16|int32|int64|int128|uint|uint8|uint16|uint32|uint64|uint128|float16|float32|float64|float128|char|bool|void|matrix)\\b"
         },
         {
             "name": "variable.language.cyrus",
