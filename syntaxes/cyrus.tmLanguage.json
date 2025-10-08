@@ -7,7 +7,7 @@
     "patterns": [
         {
             "name": "keyword.control.cyrus",
-            "match": "\\b(if|else|while|for|foreach|in|switch|case|default|pub|inline|extern|return|break|continue)\\b"
+            "match": "\\b(defer|if|else|while|for|foreach|in|switch|case|default|pub|inline|extern|return|break|continue)\\b"
         },
         {
             "name": "keyword.declaration.cyrus",
