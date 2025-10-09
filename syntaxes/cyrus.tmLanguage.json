@@ -18,8 +18,20 @@
             "match": "\\b(const|uintptr|intptr|size_t|int|int8|int16|int32|int64|int128|uint|uint8|uint16|uint32|uint64|uint128|float16|float32|float64|float128|char|bool|void|matrix)\\b"
         },
         {
-            "name": "variable.language.cyrus",
-            "match": "#[a-zA-Z_][a-zA-Z0-9_]*"
+            "name": "meta.var-declaration.cyrus",
+            "match": "\\bvar\\s+([a-zA-Z_][a-zA-Z0-9_]*)\\s*:\\s*([^=;]+)"
+        },
+        {
+            "name": "keyword.declaration.cyrus",
+            "match": "\\bvar\\b"
+        },
+        {
+            "name": "variable.name.cyrus",
+            "match": "(?<=var\\s+)[a-zA-Z_][a-zA-Z0-9_]*"
+        },
+        {
+            "name": "storage.type.cyrus",
+            "match": "(?<=:\\s*)[a-zA-Z_][a-zA-Z0-9_\\*]*"
         },
         {
             "name": "constant.language.cyrus",
@@ -67,10 +79,6 @@
         {
             "name": "support.function.call.cyrus",
             "match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\s*(?=\\()"
-        },
-        {
-            "name": "punctuation.definition.variable.cyrus",
-            "match": "#"
         },
         {
             "name": "punctuation.definition.range.cyrus",
