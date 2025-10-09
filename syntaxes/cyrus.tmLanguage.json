@@ -11,7 +11,7 @@
         },
         {
             "name": "keyword.declaration.cyrus",
-            "match": "\\b(error|interface|union|type|macro|fn|struct|bits|enum|import|as|in|cast)\\b"
+            "match": "\\b(var|error|interface|union|type|macro|fn|struct|bits|enum|import|as|in|cast)\\b"
         },
         {
             "name": "storage.type.cyrus",
