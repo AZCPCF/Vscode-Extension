@@ -44,7 +44,7 @@ npm run package
 
 ### 6. Use the Extension
 
-- Open a file with the `.cyr` extension.
+- Open a file with the `.cyrus` extension.
 - Enjoy syntax highlighting and editor support for Cyrus Lang!
 
 ## Contributing
