@@ -1,0 +1,22 @@
+{
+  "Tuple Declaration": {
+    "prefix": "tuple",
+    "body": ["var ${1:name} = (${2:value1}, ${3:value2});"],
+    "description": "Declare a tuple"
+  },
+  "Tuple Access": {
+    "prefix": "tupleaccess",
+    "body": ["${1:tuple}.${2:0}", "${1:tuple}.${3:1}"],
+    "description": "Access tuple elements by index"
+  },
+  "Tuple Destructuring": {
+    "prefix": "tupledestruct",
+    "body": ["var (${1:a}, ${2:b}) = (${3:val1}, ${4:val2});"],
+    "description": "Destructure a tuple into variables"
+  },
+  "Const Tuple Destructuring": {
+    "prefix": "consttuple",
+    "body": ["const (${1:a}, ${2:b}) = (${3:val1}, ${4:val2});"],
+    "description": "Destructure a tuple as constants"
+  }
+}

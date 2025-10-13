@@ -21,6 +21,52 @@
     "Programming Languages"
   ],
   "contributes": {
+    "snippets": [
+      {
+        "language": "cyrus",
+        "path": "./snippets/variables.code-snippets"
+      },
+      {
+        "language": "cyrus",
+        "path": "./snippets/functions.code-snippets"
+      },
+      {
+        "language": "cyrus",
+        "path": "./snippets/conditionals.code-snippets"
+      },
+      {
+        "language": "cyrus",
+        "path": "./snippets/loops.code-snippets"
+      },
+      {
+        "language": "cyrus",
+        "path": "./snippets/structs.code-snippets"
+      },
+      {
+        "language": "cyrus",
+        "path": "./snippets/enums.code-snippets"
+      },
+      {
+        "language": "cyrus",
+        "path": "./snippets/unions.code-snippets"
+      },
+      {
+        "language": "cyrus",
+        "path": "./snippets/tuples.code-snippets"
+      },
+      {
+        "language": "cyrus",
+        "path": "./snippets/modules.code-snippets"
+      },
+      {
+        "language": "cyrus",
+        "path": "./snippets/imports.code-snippets"
+      },
+      {
+        "language": "cyrus",
+        "path": "./snippets/misc.code-snippets"
+      }
+    ],
     "languages": [
       {
         "id": "cyrus",
