@@ -58,7 +58,7 @@
       "",
       "fn main() {",
       "    var msg: char* = \"Hello, Cyrus!\";",
-      "    io::printfn(msg);",
+      "    printfn(msg);",
       "    ${0}",
       "}"
     ],
